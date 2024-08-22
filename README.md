@@ -1,3 +1,6 @@
+deCripty
+
+
 Este é meu primeiro projeto, baseado no desafio do Decodificador de texto da Alura. 
 Ele possui 3 botões autodescritivos: decoficar, codificar e copiar. 
 Possui a área input para inserção do texto a ser (des)criptografado, e a área output onde é possível visualizar o texto transformado.
