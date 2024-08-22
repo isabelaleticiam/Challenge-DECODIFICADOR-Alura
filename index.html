@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>deCryptor</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header></header>
+    <div class="interface__posicao">
+    <main class="interface">
+        <section class="interface__principal">
+            <div class="interface__input">
+                <h1 class="titulo">deCryptor</h1>
+                <textarea class="digitar__texto" placeholder="Digite seu texto aqui" id="textarea"></textarea>
+                <p class="aviso">⚠️ Apenas letras minúsculas e palavras sem acento.</p>
+                <div class="interface__botoes">
+                    <button class="botoes__input"  onclick="criptografar()" id="botao1">Criptografar</button>
+                    <button class="botoes__input"  onclick="descriptografar()" id="botao2">Descriptografar</button>
+                </div>
+            </div>
+            <div id ="interface__output" class="interface__output">
+                <output for="textarea"  name="saida" id="saida"></output>
+                <div class="interface__copiar">
+                    <button class="botao__copiar" id="botao__copiar" onclick="copiarTexto()">Copiar <img src="content_copy_24dp_294B29_FILL0_wght400_GRAD0_opsz24.png" alt="símbolo copiar"> </button>
+                </div>    
+                <div class="interface__em__branco" id="interface__em__branco">
+                    <img id="imagem__principal" class="imagem__principal" src="pngwing.com.png" alt="menina com lupa">
+                    <div class="texto__em__branco">
+                        <p class="mensagem__em__branco">Você não digitou nada...</p>
+                        <p class="mensagem__em__branco">Seu texto aparecerá aqui.</p>
+                    </div>    
+                </div>
+            </div>
+        </section>
+    </main>
+    </div>
+    <footer id="rodape">
+        <footer class="rodape">
+            <p id="frase__rodape">Desenvolvido por: Isabela Magno</p>
+    </footer>
+    </body>
+    <script src="app.js"></script>
+</html>
